@@ -29,13 +29,14 @@
     "ios",
     "android"
   ],
-  "author": {
-    "name": "zeng-zhiming",
-    "email": "171314432@qq.com"
-  },
+  "author": "zeng-zhiming <171314432@qq.com>",
   "license": "MIT",
-  "readmeFilename": "README.md",
   "dependencies": {
     "events": "^3.3.0"
-  }
+  },
+  "types": "./src/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/zeng-zhiming/expo-react-native-wechat/issues"
+  },
+  "homepage": "https://github.com/zeng-zhiming/expo-react-native-wechat#readme"
 }
