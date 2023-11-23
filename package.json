@@ -1,0 +1,41 @@
+{
+  "name": "expo-react-native-wechat",
+  "title": "Expo React Native Wechat",
+  "version": "1.0.0",
+  "description": "Expo React Native(iOS/Android) functionalities include WeChat Login, Share, Favorite and Payment.",
+  "main": "src/index.js",
+  "files": [
+    "README.md",
+    "index.js",
+    "index.d.ts",
+    "expo-react-native-wechat.podspec",
+    "ios",
+    "android",
+    "image"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeng-zhiming/expo-react-native-wechat.git",
+    "baseUrl": "https://github.com/zeng-zhiming/expo-react-native-wechat"
+  },
+  "keywords": [
+    "wechat",
+    "react-native",
+    "react",
+    "expo",
+    "ios",
+    "android"
+  ],
+  "author": {
+    "name": "zeng-zhiming",
+    "email": "171314432@qq.com"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "events": "^3.3.0"
+  }
+}

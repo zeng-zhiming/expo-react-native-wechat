@@ -1,0 +1,19 @@
+// android/build.gradle
+
+// These defaults should reflect the SDK versions used by
+// the minimum React Native version supported.
+apply plugin: 'com.android.library'
+
+def safeExtGet(prop, fallback) {
+rootProject.ext.has(prop) ? rootProject.ext.get(prop) : fallback
+}
+
+android {
+compileSdkVersion safeExtGet('compileSdkVersion', 31)
+}
+
+dependencies {
+// noinspection GradleDynamicVersion
+    implementation 'com.facebook.react:react-native:+'  // From node_modules
+    api 'com.tencent.mm.opensdk:wechat-sdk-android:+'
+}
