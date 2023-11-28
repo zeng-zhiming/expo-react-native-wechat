@@ -1,13 +1,12 @@
 {
   "name": "expo-react-native-wechat",
   "title": "Expo React Native Wechat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Expo React Native(iOS/Android) functionalities include WeChat Login, Share, Favorite and Payment.",
-  "main": "src/index.js",
+  "main": "src/index",
   "files": [
     "README.md",
-    "index.js",
-    "index.d.ts",
+    "src",
     "expo-react-native-wechat.podspec",
     "ios",
     "android",
